@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-public class PhysicsButton : MonoBehaviour
+public class LightButton : MonoBehaviour
 {
     [SerializeField] private float theshold = 0.1f;
     [SerializeField] private float deadzone = 0.025f;
-
     public AudioSource Sonido;
 
+    private bool on;
+    public Light luz;
 
     private bool _isPressed;
     private Vector3 _startPos;
@@ -21,8 +22,10 @@ public class PhysicsButton : MonoBehaviour
         _startPos = transform.localPosition;
         _joint = GetComponent<ConfigurableJoint>();
         Sonido = GetComponent<AudioSource>();
-
+        //luz = GetComponent<Light>();
+        on = false;
         _isPressed = false;
+        //Debug.Log(luz);
     }
 
     void Update()
@@ -45,10 +48,21 @@ public class PhysicsButton : MonoBehaviour
         onPressed.Invoke();
         Sonido.Play(); //sonido al pulsar
 
+        if (on == false) 
+        {
+            luz.gameObject.SetActive(true);
+            on = true;
+        }
+        else
+        {
+            luz.gameObject.SetActive(false);
+            on = false;
+        }
     }
     private void Reseased()
     {
         _isPressed = false;
         onReseased.Invoke();
+        //Debug.Log("Released");
     }
 }

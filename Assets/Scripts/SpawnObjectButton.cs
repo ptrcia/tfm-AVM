@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-public class PhysicsButton : MonoBehaviour
+public class SpawnObjectButton : MonoBehaviour
 {
     [SerializeField] private float theshold = 0.1f;
     [SerializeField] private float deadzone = 0.025f;
-
+    [SerializeField] private GameObject Prefab; //esto es de otro script para hacer spawn
+    [SerializeField] private Transform respawnPointBot;
     public AudioSource Sonido;
-
 
     private bool _isPressed;
     private Vector3 _startPos;
@@ -21,7 +21,6 @@ public class PhysicsButton : MonoBehaviour
         _startPos = transform.localPosition;
         _joint = GetComponent<ConfigurableJoint>();
         Sonido = GetComponent<AudioSource>();
-
         _isPressed = false;
     }
 
@@ -44,7 +43,7 @@ public class PhysicsButton : MonoBehaviour
         _isPressed = true;
         onPressed.Invoke();
         Sonido.Play(); //sonido al pulsar
-
+        Instantiate(Prefab, respawnPointBot.transform.position, respawnPointBot.transform.rotation); //spawnean donde el punto de respawn
     }
     private void Reseased()
     {
