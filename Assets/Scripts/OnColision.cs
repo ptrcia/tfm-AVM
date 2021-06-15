@@ -1,36 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
-[RequireComponent (typeof(XRDirectInteractor))]
 public class OnCollision : MonoBehaviour
 {
-    public GameObject handObject = null;
-    //private HandPhysics handPhysics = null;
-    private XRDirectInteractor interactor = null;
-    private void Awake()
+    //private GameObject esfera;
+    Collider colisionador;
+
+    void Start()
     {
-        //handPhysics = handObject.GetComponent<HandPhysics>();
-        interactor = GetComponent<XRDirectInteractor>();
+        colisionador = GetComponent<Collider>();
     }
-    private void OnEnable()
+
+    void Update()
     {
-        interactor.onSelectEnter.AddListener(Hide);
-        interactor.onSelectExit.AddListener(Show);
+        if (colisionador.isTrigger == true)
+        {
+            colisionador.enabled = !colisionador.enabled;
+
+            Debug.Log("Collider.enabled = " + colisionador.enabled);
+        }
     }
-    private void OnDisable()
+
+    /*void OnTriggerEnter(Collider other)
     {
-        interactor.onSelectEnter.RemoveListener(Hide);
-        interactor.onSelectExit.RemoveListener(Show);
+        Debug.Log("Player has entered trigger");
+        gameObject.GetComponent(Collider).isTrigger = true;
     }
-    private void Show(XRBaseInteractable interactable)
+
+    void OnTriggerStay(Collider other)
     {
-        handPhysics.TeleportToTarget();
-        handObject.SetActive(true);
+        Debug.Log("Player is in trigger");
+        gameObject.GetComponent(Collider).isTrigger = true;
     }
-    private void Hide(XRBaseInteractable interactable)
+    void OnTriggerExit(Collider other)
     {
-        handObject.SetActive(false);
-    }
+        Debug.Log("Player left trigger");
+        gameObject.GetComponent(Collider).isTrigger = false;
+        esfera = Collider.enabled(false);
+    }*/
 }
