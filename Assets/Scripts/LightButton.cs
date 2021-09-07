@@ -8,7 +8,7 @@ public class LightButton : MonoBehaviour
     [SerializeField] private float theshold = 0.1f;
     [SerializeField] private float deadzone = 0.025f;
     public AudioSource Sonido;
-
+    public GameObject Objeto;
     private bool on;
     public Light luz;
 
@@ -22,6 +22,7 @@ public class LightButton : MonoBehaviour
         _startPos = transform.localPosition;
         _joint = GetComponent<ConfigurableJoint>();
         Sonido = GetComponent<AudioSource>();
+        Objeto = GetComponent<GameObject>();
         //luz = GetComponent<Light>();
         on = false;
         _isPressed = false;
@@ -51,11 +52,15 @@ public class LightButton : MonoBehaviour
         if (on == false) 
         {
             luz.gameObject.SetActive(true);
+            Objeto.gameObject.SetActive(true);
+
             on = true;
         }
         else
         {
             luz.gameObject.SetActive(false);
+            Objeto.gameObject.SetActive(false);
+
             on = false;
         }
     }
