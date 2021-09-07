@@ -12,6 +12,8 @@ public class Respawn : MonoBehaviour
         if (other.CompareTag("Player")) //si el que se cae tiene la etiqueta player
         { 
             player.transform.position = respawnPoint.transform.position;
+            player.transform.rotation = respawnPoint.transform.rotation;//al teletransportar el player mirará donde esté mirando la caja teletransportadora
+
         }
         //Debug.Log(other);
     }
