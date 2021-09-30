@@ -29,7 +29,7 @@ public class HingeJointListener : MonoBehaviour
     {
         float angleWithMinLimit = Mathf.Abs(hinge.angle - hinge.limits.min);
         float angleWithMaxLimit = Mathf.Abs(hinge.angle - hinge.limits.max);
-
+        //Debug.Log(angleWithMinLimit);
         //Reached Min
         if (angleWithMinLimit < angleBetweenThreshold)
         {

@@ -4018,7 +4018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1047886765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4040,7 +4040,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047886764}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4101,9 +4101,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047886764}
-  m_LocalRotation: {x: -0, y: -0.9999824, z: -0, w: -0.0059304326}
-  m_LocalPosition: {x: 5.451, y: 3.7673547, z: 4.176}
-  m_LocalScale: {x: 1.5875, y: 2.6334376, z: 0.13091}
+  m_LocalRotation: {x: -9.878169e-10, y: -0.9999824, z: -3.292722e-10, w: -0.005930393}
+  m_LocalPosition: {x: 5.450998, y: 3.7673547, z: 4.1760006}
+  m_LocalScale: {x: 1.5874996, y: 2.6334376, z: 0.13091}
   m_Children: []
   m_Father: {fileID: 392108555}
   m_RootOrder: 4
@@ -5325,9 +5325,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5339,17 +5339,17 @@ MonoBehaviour:
   OnMaxLimitReached:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 919132148414357184}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: SampleScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1416503041
 GameObject:
@@ -5682,6 +5682,77 @@ Transform:
   m_Father: {fileID: 1715732940}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1509337016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a8a00a4d02fb8f14fbe2e55aa71d13a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2106357650}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1509337019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509337016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000005, y: 0.030374099, z: 2.0000007}
+  m_Center: {x: -0.0000037969583, y: -0.98482466, z: -0.00000023600639}
+--- !u!65 &1509337020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509337016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000005, y: 0, z: 2.0000007}
+  m_Center: {x: -0.0000037938355, y: 0.98534006, z: -0.000000001144522}
+--- !u!65 &1509337021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509337016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.03300003, y: 2.0000005, z: 2.0000007}
+  m_Center: {x: 0.98349893, y: -6.4767797e-10, z: -0.00000011879588}
+--- !u!65 &1509337022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509337016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0, y: 2.0000007, z: 2.0000007}
+  m_Center: {x: -0.97518945, y: 6.422058e-10, z: -0.00000011841808}
+--- !u!65 &1509337023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509337016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000005, y: 2.0000005, z: 0.15013112}
+  m_Center: {x: -0.0000037951606, y: 1.776177e-11, z: -0.92494047}
 --- !u!1 &1512434047
 GameObject:
   m_ObjectHideFlags: 0
@@ -8240,6 +8311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652333917189}
+  - component: {fileID: 919132148414357184}
   m_Layer: 0
   m_Name: PUERTA3
   m_TagString: Untagged
@@ -8247,6 +8319,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132148414357184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148414357183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f47129c7a6e6a40b0cdad3e435fe30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2924364803602301672
 Transform:
   m_ObjectHideFlags: 0
