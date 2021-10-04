@@ -1,0 +1,22 @@
+# material "White lacquer"
+newmtl 4ab75491_56b2_4d1c_a62d_eb42b59aa89b
+illum 1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+Ns 0.0994613
+
+# material "Default Material"
+newmtl Default_Material
+illum 1
+Ka 0.792157 0.211765 0.0627451
+Kd 1 0 0
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+
+

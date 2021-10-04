@@ -1,0 +1,33 @@
+# material "Lena2d"
+newmtl 0aeebe7d_e5da_43fc_ad6d_69228ee4c3db
+illum 1
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+
+# material "Zagas - Wood - Crème Brûlée PG"
+newmtl 44d19afe_9503_42a9_8d27_36f57eeffecc
+illum 1
+Ka 0 0 0
+Kd 0.588235 0.482353 0.380392
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+map_Ka Zagas_-_Wood_-_Crème_Brûlée_PG.jpg
+map_Kd Zagas_-_Wood_-_Crème_Brûlée_PG.jpg
+
+# material "Zagas - Iron - Grey"
+newmtl 55542b29_b445_4ed1_bccd_c190a53d9808
+illum 1
+Ka 0 0 0
+Kd 0.352941 0.313726 0.235294
+Ks 0 0 0
+Tf 1 1 1
+d 1
+Tr 0
+
+
