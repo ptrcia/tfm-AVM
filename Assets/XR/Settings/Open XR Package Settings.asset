@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 854666531297127064}
+  - {fileID: 4047116544314014676}
   - {fileID: 6037281892081471007}
   - {fileID: 2562508725780339086}
   - {fileID: 1894622114538218801}
@@ -21,7 +22,6 @@ MonoBehaviour:
   - {fileID: 3264795608527919507}
   - {fileID: 5160856067166319592}
   - {fileID: -5046855742489585456}
-  - {fileID: 4047116544314014676}
   - {fileID: -975152864961766235}
   - {fileID: 6678630036024635463}
   m_renderMode: 1
