@@ -7,19 +7,19 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("1escena");
+        SceneManager.LoadScene("1-casa");
     }
     public void SegundaEscena()
     {
-        SceneManager.LoadScene("2escena");
+        SceneManager.LoadScene("2-");
     }
     public void TerceraEscena()
     {
-        SceneManager.LoadScene("3escena");
+        SceneManager.LoadScene("3-");
     }
     public void CuartaEscena()
     {
-        SceneManager.LoadScene("4escena");
+        SceneManager.LoadScene("4-");
     }
 
     public void MenuGame()

@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57233
+Successfully changed project path to: C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
+C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.25 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.42 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001576 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.77 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.78 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2465 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.7 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 2.271800 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.836800 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/puertacorrederaMANILLAS.fbx
+  artifactKey: Guid(1b28f4210db7b2545bb88a0f7e6b0b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/puertacorrederaMANILLAS.fbx using Guid(1b28f4210db7b2545bb88a0f7e6b0b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a5ae4108bca36b5e62bafbbee8d838') in 0.111010 seconds
+  Import took 0.114855 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2977.
+Total: 2.353200 ms (FindLiveObjects: 0.389500 ms CreateObjectMapping: 0.083200 ms MarkObjects: 1.787200 ms  DeleteObjects: 0.092400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.4 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 2.429300 ms (FindLiveObjects: 0.352000 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.910900 ms  DeleteObjects: 0.095200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2865.147542 seconds.
+  path: Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooring.mat
+  artifactKey: Guid(a75c39afb91dd1b498ec1e6b2f88038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooring.mat using Guid(a75c39afb91dd1b498ec1e6b2f88038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbcd7668f3509f01a5271fa0f8d27f9') in 0.098149 seconds
+  Import took 0.102560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012442 seconds.
+  path: Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooring.mat
+  artifactKey: Guid(a75c39afb91dd1b498ec1e6b2f88038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooring.mat using Guid(a75c39afb91dd1b498ec1e6b2f88038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbcd7668f3509f01a5271fa0f8d27f9') in 0.024529 seconds
+  Import took 0.028819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.564081 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooring.mat
+  artifactKey: Guid(a91fcca64aa878848b16b2a8a3205835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooring.mat using Guid(a91fcca64aa878848b16b2a8a3205835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9cc92cc970a897df1bc9b552b30f4c') in 0.018677 seconds
+  Import took 0.022885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_REFL_2K.jpg
+  artifactKey: Guid(35d74b6f5f32ce24f9d0ba3274d6c7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_REFL_2K.jpg using Guid(35d74b6f5f32ce24f9d0ba3274d6c7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098523c0464aa78af371247624cb3168') in 0.050125 seconds
+  Import took 0.053764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_GLOSS_2K.jpg
+  artifactKey: Guid(f85d0830c10e99649ad48907fd28bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_GLOSS_2K.jpg using Guid(f85d0830c10e99649ad48907fd28bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c78ab80af5442d589d45c383bf3696') in 0.010061 seconds
+  Import took 0.013629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_COL_2K.jpg
+  artifactKey: Guid(bf0f8f24238d30d429839cdf4b7260e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_COL_2K.jpg using Guid(bf0f8f24238d30d429839cdf4b7260e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7847de31cba82c26d43acde45afc74f7') in 0.012101 seconds
+  Import took 0.015523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_BUMP16_2K.tif
+  artifactKey: Guid(22ab4fe1b686de6429f0dc82e0e206a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_BUMP16_2K.tif using Guid(22ab4fe1b686de6429f0dc82e0e206a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca036d805c3fa85dd0a1cdaa5749a8a') in 0.020430 seconds
+  Import took 0.024407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_DISP_2K.jpg
+  artifactKey: Guid(c08dca6cd4381694a83346da57f83c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_DISP_2K.jpg using Guid(c08dca6cd4381694a83346da57f83c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf05e15ed5549cae0c83c801697ecab3') in 0.015505 seconds
+  Import took 0.019253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_BUMP_2K.jpg
+  artifactKey: Guid(e0575db8576da0c469bdae751cefb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_BUMP_2K.jpg using Guid(e0575db8576da0c469bdae751cefb542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ee4e22cc1288237d0795127b082d4c') in 0.015600 seconds
+  Import took 0.019099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_DISP16_2K.tif
+  artifactKey: Guid(e9dec318e9ba6574580dc0e0543485b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_DISP16_2K.tif using Guid(e9dec318e9ba6574580dc0e0543485b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73455bfd29f1ae5da528e12182d00db') in 0.016331 seconds
+  Import took 0.019769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_NRM_2K.png
+  artifactKey: Guid(ffcc503b817414a4b833e78c23f0e658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_NRM_2K.png using Guid(ffcc503b817414a4b833e78c23f0e658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a96d857e1aca0a4263bed4dac009ae6') in 0.018936 seconds
+  Import took 0.023123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_AO_2K.jpg
+  artifactKey: Guid(73b24bdfe53b4fe40b112d57b2db4a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_AO_2K.jpg using Guid(73b24bdfe53b4fe40b112d57b2db4a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbe226c7fcf8d2dbac560b1ab09ae73') in 0.009548 seconds
+  Import took 0.013005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.198549 seconds.
+  path: Assets/Materials/Materials/TilesRectangularMirrorGray001/REGULAR/2K/tilesgray.mat
+  artifactKey: Guid(ea3c66ca8c1b8ce45bed25b5396baec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/TilesRectangularMirrorGray001/REGULAR/2K/tilesgray.mat using Guid(ea3c66ca8c1b8ce45bed25b5396baec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707ab50da6e2059a8d6e87148dc1a92f') in 0.016845 seconds
+  Import took 0.020824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.291935 seconds.
+  path: Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_NRM_2K.png
+  artifactKey: Guid(597302c5271af4340a8f60c712e43928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooringMerbauBrickBondNatural001/REGULAR/2K/WoodFlooringMerbauBrickBondNatural001_NRM_2K.png using Guid(597302c5271af4340a8f60c712e43928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7db1c0c985bd3ae981d19d5e2cd181') in 0.008173 seconds
+  Import took 0.012057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.733302 seconds.
+  path: Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/Materials/WoodFlooringMerbauBrickBondNatural001_AO_2K.mat
+  artifactKey: Guid(871a058efcac7824786d49b34557d386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/WoodFlooring2/REGULAR/2K/Materials/WoodFlooringMerbauBrickBondNatural001_AO_2K.mat using Guid(871a058efcac7824786d49b34557d386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d14b6688299d54d701d0db9876a34d') in 0.014538 seconds
+  Import took 0.018390 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 2.362400 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.915900 ms  DeleteObjects: 0.085700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
