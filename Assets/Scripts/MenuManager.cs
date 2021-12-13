@@ -11,7 +11,7 @@ public class MenuManager : MonoBehaviour
     }
     public void SegundaEscena()
     {
-        SceneManager.LoadScene("2-");
+        SceneManager.LoadScene("2-fiesta");
     }
     public void TerceraEscena()
     {

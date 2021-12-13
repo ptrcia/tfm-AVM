@@ -39,4 +39,5 @@ public class OnCollision : MonoBehaviour
         gameObject.GetComponent(Collider).isTrigger = false;
         esfera = Collider.enabled(false);
     }*/
+
 }
