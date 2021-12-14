@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1-casa.unity
     guid: c8f299be8212317428e4c7cafd0bc934
+  - enabled: 1
+    path: Assets/Scenes/2-fiesta.unity
+    guid: 91bebf63b416c0a4c82c8f57b7eb957f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
