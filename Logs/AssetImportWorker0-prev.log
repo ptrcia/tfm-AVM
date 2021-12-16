@@ -15,12 +15,12 @@ C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50137
+51961
 Successfully changed project path to: C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.14 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.44 ms.
+Refreshing native plugins compatible for Editor in 68.74 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.20 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001571 seconds.
+Registered in 0.001582 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.82 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 55.24 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
+- Completed reload, in  0.870 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006615 seconds.
+Registered in 0.006367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.02 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 55.38 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,26 +63,234 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  0.880 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2467 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.1 MB.
-System memory in use after: 139.1 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.0 MB.
+System memory in use after: 141.0 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2935.
-Total: 2.085600 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.658800 ms  DeleteObjects: 0.091700 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 2.085700 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.643400 ms  DeleteObjects: 0.094500 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/1-casa.unity
+  artifactKey: Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1-casa.unity using Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8611734bc2bc024e2a518ffb410c201') in 0.012170 seconds
+  Import took 0.015790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
   path: Assets/Scenes/2-fiesta.unity
   artifactKey: Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2-fiesta.unity using Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1857af72405101b97cd0c44c252f300d') in 0.016033 seconds
-  Import took 0.020290 seconds .
+Start importing Assets/Scenes/2-fiesta.unity using Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6847bd1aac8826e7e2ba3a4703f1f71') in 0.001972 seconds
+  Import took 0.004998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.941341 seconds.
+  path: Assets/Prefabs/Open3DModel (1).max
+  artifactKey: Guid(34bb101d2ecaeef4f9f6a48dd790c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Open3DModel (1).max using Guid(34bb101d2ecaeef4f9f6a48dd790c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a9ff2ca5b7eeef727bad49cd51019') in 0.016510 seconds
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010562 seconds.
+  path: Assets/Prefabs/Open3DModel (1).max
+  artifactKey: Guid(34bb101d2ecaeef4f9f6a48dd790c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Open3DModel (1).max using Guid(34bb101d2ecaeef4f9f6a48dd790c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a9ff2ca5b7eeef727bad49cd51019') in 0.002140 seconds
+  Import took 0.005807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.770881 seconds.
+  path: Assets/Prefabs/Models_G0801A034
+  artifactKey: Guid(b9151e323320b5d4db0388927dd2d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034 using Guid(b9151e323320b5d4db0388927dd2d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dee390180b940a2f200b4ba3485691c') in 0.005065 seconds
+  Import took 0.009208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056919 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED.obj
+  artifactKey: Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED.obj using Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093eec2337115ab2d8c6df435095dad') in 0.156125 seconds
+  Import took 0.161628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-04.jpg
+  artifactKey: Guid(8f73ac06f7a7fe64183334cc25e1e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-04.jpg using Guid(8f73ac06f7a7fe64183334cc25e1e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6abcba7f975fb08e409491defd7391') in 0.020053 seconds
+  Import took 0.023373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-01.jpg
+  artifactKey: Guid(a29778451780f6547a2739c5e4f47f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-01.jpg using Guid(a29778451780f6547a2739c5e4f47f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ef76da506973d6aa18e90814a3149d') in 0.010409 seconds
+  Import took 0.013836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-03.jpg
+  artifactKey: Guid(14015db4a740a80439b3b96a9e3d90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-03.jpg using Guid(14015db4a740a80439b3b96a9e3d90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f131c87afdc1f9ffa2c28e156fe77a') in 0.008837 seconds
+  Import took 0.012325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-05.jpg
+  artifactKey: Guid(bc6648d476e76a343bc70162e4c8b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-05.jpg using Guid(bc6648d476e76a343bc70162e4c8b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b03ac2235a0b38673b37132e87fc4d') in 0.009597 seconds
+  Import took 0.013427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-06.jpg
+  artifactKey: Guid(db0fb85853c0ebf44b0d3e45b76094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-06.jpg using Guid(db0fb85853c0ebf44b0d3e45b76094b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad075c8ec37cd97eeec669b74d25b06') in 0.009198 seconds
+  Import took 0.012636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-02.jpg
+  artifactKey: Guid(172b8c76929590041a9c747f8d8fdae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-02.jpg using Guid(172b8c76929590041a9c747f8d8fdae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4d738d694a8f65de36e756bc63a809') in 0.009534 seconds
+  Import took 0.013125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.246514 seconds.
+  path: Assets/Prefabs/Models_G0801A034/bed.mat
+  artifactKey: Guid(631368c213c43bf429a56f85540a666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/bed.mat using Guid(631368c213c43bf429a56f85540a666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012e417de794d731b10805d48f29c53a') in 0.038877 seconds
+  Import took 0.042681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.633351 seconds.
+  path: Assets/Prefabs/Models_G0801A034/KR-04.jpg
+  artifactKey: Guid(8f73ac06f7a7fe64183334cc25e1e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/KR-04.jpg using Guid(8f73ac06f7a7fe64183334cc25e1e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6507c9e11fa2fd5acf6bfa48eb0a90eb') in 0.022858 seconds
+  Import took 0.026856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.457481 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED Variant.prefab
+  artifactKey: Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED Variant.prefab using Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f024a9b5a5130153b1df5f0c158e83a1') in 0.045409 seconds
+  Import took 0.050960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001187 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED Variant.prefab
+  artifactKey: Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED Variant.prefab using Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f024a9b5a5130153b1df5f0c158e83a1') in 0.062661 seconds
+  Import took 0.067716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.536844 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED Variant.prefab
+  artifactKey: Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED Variant.prefab using Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e6cf20cc6e118ec1aa026f952d4667') in 0.095813 seconds
+  Import took 0.101679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED.obj
+  artifactKey: Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED.obj using Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947711e2e4c3a9d74b30a6aff050bbed') in 0.050484 seconds
+  Import took 0.055458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.085730 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED Variant.prefab
+  artifactKey: Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED Variant.prefab using Guid(287b2f9cbacbf9744bac196ab7a5ad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d95b8e7f73fab7903f8686d679ca59f') in 0.118791 seconds
+  Import took 0.124287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED.obj
+  artifactKey: Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED.obj using Guid(fe24b4cdcd1f63b46993378afdcdc2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc83aed97357af72ab11207a59676347') in 0.182373 seconds
+  Import took 0.187642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.389558 seconds.
+  path: Assets/Prefabs/Models_G0801A034/Materials
+  artifactKey: Guid(41f316b7436126646bb64a758292c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/Materials using Guid(41f316b7436126646bb64a758292c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338f621690b5054ee7ca6a30715e31b7') in 0.005722 seconds
+  Import took 0.009689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059129 seconds.
+  path: Assets/Prefabs/Models_G0801A034/Materials/wire_009009010.mat
+  artifactKey: Guid(b6a4409fd8063b54e83dbd09103d7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/Materials/wire_009009010.mat using Guid(b6a4409fd8063b54e83dbd09103d7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df363faf5c34e7fbcaf89d6e0add6666') in 0.008832 seconds
+  Import took 0.012774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.349692 seconds.
+  path: Assets/Prefabs/Models_G0801A034/bed.mat
+  artifactKey: Guid(631368c213c43bf429a56f85540a666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/bed.mat using Guid(631368c213c43bf429a56f85540a666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2424a5bf49820a35a568ef806b42b50c') in 0.046223 seconds
+  Import took 0.050417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.030803 seconds.
+  path: Assets/Prefabs/Models_G0801A034/bed 1.mat
+  artifactKey: Guid(0ebae5407775a684c924934131317ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/bed 1.mat using Guid(0ebae5407775a684c924934131317ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd0d0a71f81d5d18463c97b0d27a086') in 0.022819 seconds
+  Import took 0.026963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.109503 seconds.
+  path: Assets/Prefabs/Models_G0801A034/BED Variant 1.prefab
+  artifactKey: Guid(48765ce440cf6ba47a815f0cb290a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models_G0801A034/BED Variant 1.prefab using Guid(48765ce440cf6ba47a815f0cb290a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c34b05cdded044613c78384d34947c6') in 0.044576 seconds
+  Import took 0.050922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4026.879718 seconds.
+  path: Assets/Scripts/Destroy.cs
+  artifactKey: Guid(a99a590a98365bc439a23ded8639b05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Destroy.cs using Guid(a99a590a98365bc439a23ded8639b05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967214da79a3ff264b49f07375610125') in 0.007195 seconds
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.358719 seconds.
+  path: Assets/Scripts/Flee.cs
+  artifactKey: Guid(90c52ef6ce73d1b46bb524d28557cb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flee.cs using Guid(90c52ef6ce73d1b46bb524d28557cb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62105d93eb19abd16f0336473c0d66f0') in 0.005472 seconds
+  Import took 0.009372 seconds .
 
 ========================================================================
 Received Prepare
@@ -90,33 +298,7 @@ Registering precompiled user dll's ...
 Registered in 0.007706 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2948.
-Total: 2.040400 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.625600 ms  DeleteObjects: 0.148200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
@@ -125,237 +307,69 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.1 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2952.
-Total: 2.525800 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.900900 ms  DeleteObjects: 0.176200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006561 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.1 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2956.
-Total: 3.045100 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.514300 ms  DeleteObjects: 0.170700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006814 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.817 seconds
+- Completed reload, in  0.793 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.1 MB.
-System memory in use after: 136.1 MB.
+System memory in use after: 136.3 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2960.
-Total: 2.518600 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.956800 ms  DeleteObjects: 0.189700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006531 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2964.
-Total: 2.598500 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.012900 ms  DeleteObjects: 0.190700 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3002.
+Total: 2.267100 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.785200 ms  DeleteObjects: 0.093200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 559.101205 seconds.
-  path: Assets/Realistic Glitches Lite/Assets/Scripts/ShaderEffect_Unsync.cs
-  artifactKey: Guid(241314d1fb77b45f7a50e5561c0a9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Realistic Glitches Lite/Assets/Scripts/ShaderEffect_Unsync.cs using Guid(241314d1fb77b45f7a50e5561c0a9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb62ef382fabbd33ef2eab4560ef3cd') in 0.024966 seconds
-  Import took 0.028839 seconds .
+  Time since last request: 1258.703376 seconds.
+  path: Assets/Scenes/2-fiesta 1.unity
+  artifactKey: Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2-fiesta 1.unity using Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6986fb57c9aa3db22564af9630487a') in 0.081581 seconds
+  Import took 0.086123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.537022 seconds.
+  path: Assets/Scenes/3-pasillo.unity
+  artifactKey: Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3-pasillo.unity using Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746f3c30d4bbbb78133cda3b9ba9367') in 0.005403 seconds
+  Import took 0.009398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003021 seconds.
+  path: Assets/Scenes/3-pasillo.unity
+  artifactKey: Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3-pasillo.unity using Guid(456ac0ccf83d07a4fad58d277a99c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746f3c30d4bbbb78133cda3b9ba9367') in 0.002227 seconds
+  Import took 0.005744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 945.718367 seconds.
+  path: Assets/Materials/blue 1.mat
+  artifactKey: Guid(819913f985c01284db7d03ad45e458aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blue 1.mat using Guid(819913f985c01284db7d03ad45e458aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6c2744356655b803f4c40a7b2f5e76') in 0.053916 seconds
+  Import took 0.058213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.482418 seconds.
+  path: Assets/Materials/Materials/PaintedPlaster017_2K-JPG/Plaster.mat
+  artifactKey: Guid(0d913dc211b669c4e92005a50603d313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/PaintedPlaster017_2K-JPG/Plaster.mat using Guid(0d913dc211b669c4e92005a50603d313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6140fa7910184c1e43e87345045b3') in 0.029945 seconds
+  Import took 0.033885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.061870 seconds.
+  path: Assets/Materials/Materials/Tiles107_2K-JPG/TilesWhite 1.mat
+  artifactKey: Guid(10cc4ca363a07e74dab042cfa68206dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Tiles107_2K-JPG/TilesWhite 1.mat using Guid(10cc4ca363a07e74dab042cfa68206dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9f98ee879685b2d8f8cf12abd2deec') in 0.031046 seconds
+  Import took 0.035229 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006572 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2968.
-Total: 2.465600 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.876700 ms  DeleteObjects: 0.211800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2972.
-Total: 2.219500 ms (FindLiveObjects: 0.264900 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.717300 ms  DeleteObjects: 0.174900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006513 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2976.
-Total: 2.157600 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.676100 ms  DeleteObjects: 0.162600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2980.
-Total: 2.522600 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.033600 ms  DeleteObjects: 0.169100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006448 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.822 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.1 MB.
-System memory in use after: 136.1 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2984.
-Total: 2.451700 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.862400 ms  DeleteObjects: 0.188600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006572 seconds.
+Registered in 0.007699 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
@@ -367,25 +381,25 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
+- Completed reload, in  0.881 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
+System memory in use after: 136.4 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2988.
-Total: 2.425200 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.866600 ms  DeleteObjects: 0.182300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3007.
+Total: 2.592800 ms (FindLiveObjects: 0.524600 ms CreateObjectMapping: 0.145200 ms MarkObjects: 1.826300 ms  DeleteObjects: 0.095400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006635 seconds.
+Registered in 0.006657 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
@@ -393,21 +407,21 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.784 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
+System memory in use after: 136.4 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2992.
-Total: 2.816400 ms (FindLiveObjects: 0.467100 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.073000 ms  DeleteObjects: 0.190600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 2.643500 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.186300 ms  DeleteObjects: 0.095500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006587 seconds.
+Registered in 0.006395 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 14 plugins.
@@ -419,22 +433,223 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.781 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.2 MB.
-System memory in use after: 136.2 MB.
+System memory in use after: 136.4 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2996.
-Total: 2.259600 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.741600 ms  DeleteObjects: 0.169100 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3015.
+Total: 2.417000 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.074600 ms MarkObjects: 1.962600 ms  DeleteObjects: 0.094100 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 1413.893163 seconds.
-  path: Assets/Scenes/1-casa.unity
-  artifactKey: Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1-casa.unity using Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892d277cad779ad92dbeb5dde1438fd2') in 0.041241 seconds
-  Import took 0.045803 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
 
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3019.
+Total: 2.358800 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.855500 ms  DeleteObjects: 0.088600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 3.123500 ms (FindLiveObjects: 0.401200 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.519900 ms  DeleteObjects: 0.120600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 2.234500 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.064900 ms MarkObjects: 1.792200 ms  DeleteObjects: 0.089600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3031.
+Total: 2.650800 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.082800 ms  DeleteObjects: 0.097800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3035.
+Total: 3.322700 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.747700 ms  DeleteObjects: 0.103900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 2.481400 ms (FindLiveObjects: 0.351600 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.967500 ms  DeleteObjects: 0.100200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3043.
+Total: 2.357800 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.818800 ms  DeleteObjects: 0.096500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3047.
+Total: 2.676700 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.156200 ms  DeleteObjects: 0.128600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

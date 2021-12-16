@@ -29,7 +29,7 @@ public class Flee : MonoBehaviour
         {
             //esto se activa cuando la posicion actual del jugador es mayor en el eje de coordenadas x
             print("moviendo positivo en las x");
-            bed.position.x++;
+            //bed.position.x++;
             //asignar nueva posicion en las xde tu objeto en funcion de que el jugador incrementa su posicion en las x
             //1transform.position.x = transform.position.x;
 
