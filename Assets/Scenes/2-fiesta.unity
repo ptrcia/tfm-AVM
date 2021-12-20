@@ -31621,7 +31621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16201f58dabd2794cb0e7b4f2d3f4108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevel: 3-fiesta
+  loadLevel: 3-pasillo
 --- !u!65 &1960577878
 BoxCollider:
   m_ObjectHideFlags: 0
