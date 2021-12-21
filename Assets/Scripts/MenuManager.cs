@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
     }
     public void TerceraEscena()
     {
-        SceneManager.LoadScene("3-");
+        SceneManager.LoadScene("3-pasillo");
     }
     public void CuartaEscena()
     {
