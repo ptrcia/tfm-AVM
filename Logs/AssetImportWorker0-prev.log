@@ -15,12 +15,12 @@ C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54355
+49397
 Successfully changed project path to: C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.10 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.30 ms.
+Refreshing native plugins compatible for Editor in 73.06 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.41 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001593 seconds.
+Registered in 0.001517 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.87 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 58.41 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
+- Completed reload, in  0.911 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006659 seconds.
+Registered in 0.006491 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.52 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 61.20 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,121 +63,70 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
+- Completed reload, in  0.936 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 2650 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 147.9 MB.
 System memory in use after: 147.9 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3117.
-Total: 2.326700 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.723600 ms  DeleteObjects: 0.244300 ms)
+Total: 2.611600 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.949300 ms  DeleteObjects: 0.251700 ms)
 
 ========================================================================
-Received Import Request.
-  path: Assets/Scenes/2-fiesta.unity
-  artifactKey: Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2-fiesta.unity using Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18493802b0e459052ab625ef9791979f') in 0.017146 seconds
-  Import took 0.021558 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 2.949300 ms (FindLiveObjects: 0.421700 ms CreateObjectMapping: 0.069600 ms MarkObjects: 2.193900 ms  DeleteObjects: 0.262500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 84.945268 seconds.
-  path: Assets/Prefabs/maniqui.fbx
-  artifactKey: Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniqui.fbx using Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f1ec2756f322aa79c3f1aa995984cf') in 0.241213 seconds
-  Import took 0.245735 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\patry\Escritorio\TFM AVM\TFM AVM 2020\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
 
-========================================================================
-Received Import Request.
-  Time since last request: 378.827409 seconds.
-  path: Assets/Prefabs/maniqui.blend
-  artifactKey: Guid(b05d40957ae6c974d90e92ef9b7dc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniqui.blend using Guid(b05d40957ae6c974d90e92ef9b7dc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ded128a7965c93f7a2ebef30f2a0835') in 0.022665 seconds
-  Import took 0.026953 seconds .
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
-========================================================================
-Received Import Request.
-  Time since last request: 2.416983 seconds.
-  path: Assets/Prefabs/maniqui.fbx
-  artifactKey: Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniqui.fbx using Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8b9ee5a0ccf260764eb219a6e1043b') in 0.019422 seconds
-  Import took 0.023591 seconds .
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.3 MB.
+System memory in use after: 142.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 660.882313 seconds.
-  path: Assets/Prefabs/maniqui.fbx
-  artifactKey: Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniqui.fbx using Guid(56321a23ad4291b4f91d266ab9c95641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5555e23ceeb9acfae2c23d14163e77') in 0.053896 seconds
-  Import took 0.059482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 398.362186 seconds.
-  path: Assets/Prefabs/maniquis
-  artifactKey: Guid(64709478cd40da34780f657fbcfb22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis using Guid(64709478cd40da34780f657fbcfb22ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c227ead914ce0e7a038c4636be44c9') in 0.006809 seconds
-  Import took 0.010927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.292973 seconds.
-  path: Assets/Prefabs/maniquis/maniquimale.fbx
-  artifactKey: Guid(14120717d86861c4f9971a190f03c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquimale.fbx using Guid(14120717d86861c4f9971a190f03c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2549ac74ed5ed65a973b93e022e313c5') in 0.044463 seconds
-  Import took 0.049090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 996.506421 seconds.
-  path: Assets/Prefabs/maniquis/maniquimale1.fbx
-  artifactKey: Guid(f680c448336b24d4fb3e0713b57b276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquimale1.fbx using Guid(f680c448336b24d4fb3e0713b57b276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c986fce39414e2fd16a48b3fc970b574') in 0.035343 seconds
-  Import took 0.040421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.967194 seconds.
-  path: Assets/Prefabs/maniquis/maniquifemale.fbx
-  artifactKey: Guid(1911d3ab2ce25a349be70514a3ad5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquifemale.fbx using Guid(1911d3ab2ce25a349be70514a3ad5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41ac4f02989d0e3910004f6f075bfbe') in 0.033800 seconds
-  Import took 0.038962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.444257 seconds.
-  path: Assets/Prefabs/maniquis/maniquifemale1.fbx
-  artifactKey: Guid(bf2d28660ea2f7d4d930dc4cf8c6489c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquifemale1.fbx using Guid(bf2d28660ea2f7d4d930dc4cf8c6489c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c144442121bbaf3cce62975ab160c17e') in 0.036042 seconds
-  Import took 0.040929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1212.963532 seconds.
-  path: Assets/Prefabs/maniquis/maniquimale.fbx
-  artifactKey: Guid(14120717d86861c4f9971a190f03c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquimale.fbx using Guid(14120717d86861c4f9971a190f03c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a7144048ea4ee7b7d64e6925eff24c') in 0.053039 seconds
-  Import took 0.057979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.453214 seconds.
-  path: Assets/Prefabs/maniquis/maniquifemale2.fbx
-  artifactKey: Guid(09b7cd09e19a420499544faed698b7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquifemale2.fbx using Guid(09b7cd09e19a420499544faed698b7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0576f536c86b9375a3155ce5d37d8c4') in 0.054030 seconds
-  Import took 0.059003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.719386 seconds.
-  path: Assets/Prefabs/maniquis/maniquimale2.fbx
-  artifactKey: Guid(46a1d630766f11b488ad82bb089729cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/maniquis/maniquimale2.fbx using Guid(46a1d630766f11b488ad82bb089729cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e61d6ab64a4dd28a5af8006b7571f4') in 0.106903 seconds
-  Import took 0.111856 seconds .
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3125.
+Total: 2.860500 ms (FindLiveObjects: 0.432100 ms CreateObjectMapping: 0.073400 ms MarkObjects: 2.097100 ms  DeleteObjects: 0.257000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
