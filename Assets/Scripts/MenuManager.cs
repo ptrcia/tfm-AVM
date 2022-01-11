@@ -32,10 +32,5 @@ public class MenuManager : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
-    
-    //escena de prueba
-    public void SampleScene()
-    {
-        SceneManager.LoadScene("SampleScene");
-    }
+   
 }
