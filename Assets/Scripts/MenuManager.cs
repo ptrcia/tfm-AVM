@@ -19,12 +19,21 @@ public class MenuManager : MonoBehaviour
     }
     public void CuartaEscena()
     {
-        SceneManager.LoadScene("4-");
+        SceneManager.LoadScene("4-camas");
     }
+    public void QuintaEscena()
+    {
+        SceneManager.LoadScene("5-espejos");
+    }
+    public void SextaEscena()
+    {
+        SceneManager.LoadScene("6-escalera");
+    }
+
 
     public void MenuGame()
     {
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("0-menu");
     }
 
     public void QuitGame()

@@ -4076,7 +4076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16201f58dabd2794cb0e7b4f2d3f4108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadLevel: 4-salacamas
+  loadLevel: 4-camas
 --- !u!65 &943096759
 BoxCollider:
   m_ObjectHideFlags: 0
