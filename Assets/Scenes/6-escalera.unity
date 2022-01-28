@@ -11253,7 +11253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9d702f8e052b04f885256f524a1632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 10
+  seconds: 20
   Action:
     m_PersistentCalls:
       m_Calls:
@@ -11295,7 +11295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9d702f8e052b04f885256f524a1632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 12
+  seconds: 22
   Action:
     m_PersistentCalls:
       m_Calls:
@@ -11323,7 +11323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9d702f8e052b04f885256f524a1632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 60
+  seconds: 180
   Action:
     m_PersistentCalls:
       m_Calls:
@@ -11351,7 +11351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9d702f8e052b04f885256f524a1632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 25
+  seconds: 40
   Action:
     m_PersistentCalls:
       m_Calls:
