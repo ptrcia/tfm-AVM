@@ -6146,7 +6146,7 @@ VideoPlayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265936693}
-  m_Enabled: 1
+  m_Enabled: 0
   m_VideoClip: {fileID: 32900000, guid: 0a0546796360ed048a4b1a74b7410fb2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
@@ -6168,7 +6168,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
@@ -8244,14 +8244,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723696053}
-  m_LocalRotation: {x: 0, y: -0.9999338, z: 0, w: 0.0115102185}
-  m_LocalPosition: {x: 25.79, y: 6.72, z: 12.6}
+  m_LocalRotation: {x: -0, y: -0.9999973, z: -0, w: -0.002328031}
+  m_LocalPosition: {x: 25.5, y: 6.7199993, z: 10.72}
   m_LocalScale: {x: 25.846123, y: 0.00937422, z: 25.370544}
   m_Children:
   - {fileID: 239864744}
   m_Father: {fileID: 543450652266900441}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -178.681, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180.267, z: 0}
 --- !u!65 &1723696055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10513,16 +10513,16 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1265936698}
-        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 768080184}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine

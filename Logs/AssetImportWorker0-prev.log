@@ -15,12 +15,12 @@ C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64461
+61500
 Successfully changed project path to: C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.09 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.42 ms.
+Refreshing native plugins compatible for Editor in 74.55 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.24 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/patry/Escritorio/TFM AVM/TFM AVM 2020/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001819 seconds.
+Registered in 0.001697 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.49 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 61.67 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.940 seconds
+- Completed reload, in  0.917 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007716 seconds.
+Registered in 0.006767 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.03 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 64.26 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -63,47 +63,76 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  0.986 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2637 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 150.0 MB.
-System memory in use after: 150.1 MB.
+System memory in use after: 150.0 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3106.
-Total: 2.753900 ms (FindLiveObjects: 0.809300 ms CreateObjectMapping: 0.068900 ms MarkObjects: 1.773600 ms  DeleteObjects: 0.101200 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3105.
+Total: 2.282200 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.783700 ms  DeleteObjects: 0.107500 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/2-fiesta.unity
+  artifactKey: Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2-fiesta.unity using Guid(91bebf63b416c0a4c82c8f57b7eb957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dbd0d513a6b3740d10fc82ec9f91d6') in 0.015447 seconds
+  Import took 0.019552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.140138 seconds.
+  path: Assets/Scenes/3-pasillo.unity
+  artifactKey: Guid(47088f9d612d2734289792327ffcecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3-pasillo.unity using Guid(47088f9d612d2734289792327ffcecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7cc74f5fa8cde181272bd3080eed5d') in 0.005018 seconds
+  Import took 0.010944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.846053 seconds.
+  path: Assets/Scenes/4-camas.unity
+  artifactKey: Guid(11c1e5680605a09458dea962db9987b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4-camas.unity using Guid(11c1e5680605a09458dea962db9987b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1560eb30a27aa95d5064678ff12f090d') in 0.006321 seconds
+  Import took 0.010372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.557399 seconds.
+  path: Assets/Scenes/5-espejos.unity
+  artifactKey: Guid(28c9b947385f0db48b00222fac94de02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/5-espejos.unity using Guid(28c9b947385f0db48b00222fac94de02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0a76465e9551c36ab273e5c78c2096') in 0.005427 seconds
+  Import took 0.009641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.504086 seconds.
+  path: Assets/Scenes/6-escalera.unity
+  artifactKey: Guid(8a99d0bfab09ad4439f8736a15154d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6-escalera.unity using Guid(8a99d0bfab09ad4439f8736a15154d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9c7d5d783db9ba08ac09c79b9b636f') in 0.005610 seconds
+  Import took 0.010166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1599.289052 seconds.
   path: Assets/Scenes/1-casa.unity
   artifactKey: Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1-casa.unity using Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73052f9f0f10a6909a001942cea92230') in 0.016615 seconds
-  Import took 0.021027 seconds .
+Start importing Assets/Scenes/1-casa.unity using Guid(c8f299be8212317428e4c7cafd0bc934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da699c6fc89c14387bad0fbbba8b1fd4') in 0.005146 seconds
+  Import took 0.009711 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.18 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 5.55 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.0 MB.
-System memory in use after: 94.2 MB.
+System memory in use before: 94.1 MB.
+System memory in use after: 94.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3106.
-Total: 3.045200 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.500800 ms  DeleteObjects: 0.088300 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.17 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.0 MB.
-System memory in use after: 94.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3106.
-Total: 2.896500 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.416400 ms  DeleteObjects: 0.101800 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3105.
+Total: 5.638700 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.070800 ms MarkObjects: 5.051200 ms  DeleteObjects: 0.111300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
