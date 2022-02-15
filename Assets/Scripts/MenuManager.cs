@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Debug.Log("Quit");
+
+            Application.Quit();
+        }
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene("1-casa");
