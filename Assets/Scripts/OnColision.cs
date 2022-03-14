@@ -21,23 +21,4 @@ public class OnCollision : MonoBehaviour
             Debug.Log("Collider.enabled = " + colisionador.enabled);
         }
     }
-
-    /*void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Player has entered trigger");
-        gameObject.GetComponent(Collider).isTrigger = true;
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        Debug.Log("Player is in trigger");
-        gameObject.GetComponent(Collider).isTrigger = true;
-    }
-    void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Player left trigger");
-        gameObject.GetComponent(Collider).isTrigger = false;
-        esfera = Collider.enabled(false);
-    }*/
-
 }

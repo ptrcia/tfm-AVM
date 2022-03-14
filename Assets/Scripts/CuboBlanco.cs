@@ -15,7 +15,6 @@ public class CuboBlanco : MonoBehaviour
     {
         // Al iniciar, declaramos que la posición inicial es la posición que tenga el cubo blanco en la escena
         posIni = transform.position;
-
     }
 
     private void Update()

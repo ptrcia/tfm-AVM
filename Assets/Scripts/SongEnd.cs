@@ -1,4 +1,3 @@
-// When the audio component has stopped playing, play otherClip
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -8,7 +7,6 @@ public class SongEnd : MonoBehaviour
 {
     AudioSource audioSource;
     [SerializeField] private string loadLevel;
-
 
     void Start()
     {
@@ -20,7 +18,6 @@ public class SongEnd : MonoBehaviour
         if (!audioSource.isPlaying)
         {
             SceneManager.LoadScene(loadLevel);
-
         }
     }
 }
